@@ -16,11 +16,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/secp256k1"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/secp256k1_ltc"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
+	"github.com/dominant-strategies/ltcd/txscript"
+	"github.com/dominant-strategies/ltcd/wire"
 	"lukechampine.com/blake3"
 )
 
@@ -382,7 +382,7 @@ func signMwebOutput(output *POutput) (*mw.BlindingFactor, *mw.SecretKey, error) 
 
 	// Probably best to store sender_key so sender
 	// can identify all outputs they've sent?
-	rangeProof := secp256k1.NewRangeProof(amount, *blind, make([]byte, 20), messageBuf.Bytes())
+	rangeProof := secp256k1_ltc.NewRangeProof(amount, *blind, make([]byte, 20), messageBuf.Bytes())
 	rangeProofHash := blake3.Sum256(rangeProof[:])
 
 	// Sign the output

@@ -10,8 +10,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 var (

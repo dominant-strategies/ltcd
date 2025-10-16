@@ -27,8 +27,8 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/btcsuite/websocket"
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/btcjson"
+	"github.com/dominant-strategies/ltcd/chaincfg"
 )
 
 var (

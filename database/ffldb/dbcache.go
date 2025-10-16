@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ltcsuite/ltcd/database/internal/treap"
+	"github.com/dominant-strategies/ltcd/database/internal/treap"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/util"

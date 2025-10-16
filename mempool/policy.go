@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/blockchain"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/txscript"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 const (

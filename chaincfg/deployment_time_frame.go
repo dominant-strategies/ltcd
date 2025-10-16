@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 var (

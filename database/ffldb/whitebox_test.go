@@ -17,10 +17,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/database"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/wire"
 	"github.com/syndtr/goleveldb/leveldb"
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"
 )

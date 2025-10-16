@@ -11,11 +11,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/txscript"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 const (

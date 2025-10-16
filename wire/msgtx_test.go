@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 	"github.com/stretchr/testify/require"
 	"gotest.tools/assert"
 )

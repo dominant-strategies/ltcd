@@ -1,4 +1,4 @@
-module github.com/ltcsuite/ltcd
+module github.com/dominant-strategies/ltcd
 
 require (
 	github.com/btcsuite/btclog v0.0.0-20170628155309-84c8d2346e9f
@@ -10,10 +10,6 @@ require (
 	github.com/decred/dcrd/lru v1.1.1
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/jrick/logrotate v1.0.0
-	github.com/ltcsuite/ltcd/btcec/v2 v2.3.2
-	github.com/ltcsuite/ltcd/chaincfg/chainhash v1.0.2
-	github.com/ltcsuite/ltcd/ltcutil v1.1.4-0.20250505084124-c37ac1524e04
-	github.com/ltcsuite/secp256k1 v0.1.1
 	github.com/stretchr/testify v1.8.3
 	github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 	golang.org/x/crypto v0.7.0
@@ -42,3 +38,5 @@ require (
 )
 
 go 1.17
+
+replace github.com/dominant-strategies/ltcd/secp256k1_ltc => ./secp256k1_ltc

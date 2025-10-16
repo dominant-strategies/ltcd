@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

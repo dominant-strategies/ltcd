@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // randAddr generates a *wire.NetAddressV2 backed by a random IPv4/IPv6

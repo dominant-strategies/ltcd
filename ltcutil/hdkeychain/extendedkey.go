@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/base58"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil/base58"
 )
 
 const (

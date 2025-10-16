@@ -9,10 +9,10 @@ import (
 	"fmt"
 
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/btcec/v2/schnorr"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // TapscriptLeafVersion represents the various possible versions of a tapscript

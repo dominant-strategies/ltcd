@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // AddNodeSubCmd defines the type used in the addnode JSON-RPC command for the

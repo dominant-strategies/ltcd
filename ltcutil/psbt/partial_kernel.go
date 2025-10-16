@@ -3,9 +3,9 @@ package psbt
 import (
 	"bytes"
 	"encoding/binary"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
+	"github.com/dominant-strategies/ltcd/wire"
 	"io"
 )
 

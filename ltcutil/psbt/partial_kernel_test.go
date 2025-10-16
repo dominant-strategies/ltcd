@@ -3,8 +3,8 @@ package psbt
 import (
 	"bytes"
 	"encoding/hex"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/wire"
 	"testing"
 )
 

@@ -23,16 +23,16 @@ import (
 
 	"github.com/btcsuite/go-socks/socks"
 	flags "github.com/jessevdk/go-flags"
-	"github.com/ltcsuite/ltcd/blockchain"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/connmgr"
-	"github.com/ltcsuite/ltcd/database"
-	_ "github.com/ltcsuite/ltcd/database/ffldb"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/mempool"
-	"github.com/ltcsuite/ltcd/peer"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/blockchain"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/connmgr"
+	"github.com/dominant-strategies/ltcd/database"
+	_ "github.com/dominant-strategies/ltcd/database/ffldb"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/mempool"
+	"github.com/dominant-strategies/ltcd/peer"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 const (

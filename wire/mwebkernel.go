@@ -4,8 +4,8 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
 	"lukechampine.com/blake3"
 )
 

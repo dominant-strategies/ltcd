@@ -9,9 +9,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/btcec/v2/schnorr"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 const (

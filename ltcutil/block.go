@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // OutOfRangeError describes an error due to accessing an element that is out

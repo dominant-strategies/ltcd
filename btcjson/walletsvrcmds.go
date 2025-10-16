@@ -12,7 +12,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 )
 
 // AddMultisigAddressCmd defines the addmutisigaddress JSON-RPC command.

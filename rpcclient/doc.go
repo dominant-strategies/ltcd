@@ -9,7 +9,7 @@ Package rpcclient implements a websocket-enabled Litecoin JSON-RPC client.
 
 This client provides a robust and easy to use client for interfacing with a
 Litecoin RPC server that uses a ltcd/litecoin core compatible Litecoin JSON-RPC
-API.  This client has been tested with ltcd (https://github.com/ltcsuite/ltcd),
+API.  This client has been tested with ltcd (https://github.com/dominant-strategies/ltcd),
 ltcwallet (https://github.com/ltcsuite/ltcwallet), and
 litecoin core (https://github.com/litecoin-project/litecoin).
 

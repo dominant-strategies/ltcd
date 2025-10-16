@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/mining"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/mining"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model
@@ -279,7 +279,7 @@ func (ef *FeeEstimator) RegisterBlock(block *ltcutil.Block) error {
 		// Also check that blocksToConfirm is not negative as this causes
 		// the node to crash on reorgs.  A tx that was observed at height X
 		// might be included in heights less than X because of chain reorgs.
-		// Refer to github.com/ltcsuite/ltcd/issues/1660 for more information.
+		// Refer to github.com/dominant-strategies/ltcd/issues/1660 for more information.
 		//
 		// TODO(kcalvinalvin) a better design that doesn't just skip over the
 		// transaction would result in a more accurate fee estimator.  Properly

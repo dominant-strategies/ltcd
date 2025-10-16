@@ -8,11 +8,11 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/secp256k1"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/secp256k1_ltc"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
+	"github.com/dominant-strategies/ltcd/txscript"
+	"github.com/dominant-strategies/ltcd/wire"
 	"lukechampine.com/blake3"
 )
 
@@ -222,7 +222,7 @@ func createOutput(recipient *Recipient, senderKey *mw.SecretKey) (
 
 	// Probably best to store sender_key so sender
 	// can identify all outputs they've sent?
-	rangeProof := secp256k1.NewRangeProof(recipient.Value,
+	rangeProof := secp256k1_ltc.NewRangeProof(recipient.Value,
 		*blind, make([]byte, 20), messageBuf.Bytes())
 	rangeProofHash := blake3.Sum256(rangeProof[:])
 

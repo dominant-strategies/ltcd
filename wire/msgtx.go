@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 const (

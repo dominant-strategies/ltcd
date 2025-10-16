@@ -15,10 +15,10 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/ltcsuite/ltcd/blockchain/indexers"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/limits"
-	"github.com/ltcsuite/ltcd/ossec"
+	"github.com/dominant-strategies/ltcd/blockchain/indexers"
+	"github.com/dominant-strategies/ltcd/database"
+	"github.com/dominant-strategies/ltcd/limits"
+	"github.com/dominant-strategies/ltcd/ossec"
 )
 
 const (

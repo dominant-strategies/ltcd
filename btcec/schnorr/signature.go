@@ -7,8 +7,8 @@ import (
 
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 	ecdsa_schnorr "github.com/decred/dcrd/dcrec/secp256k1/v4/schnorr"
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 const (

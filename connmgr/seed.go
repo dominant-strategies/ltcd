@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 const (

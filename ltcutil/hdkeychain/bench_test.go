@@ -7,7 +7,7 @@ package hdkeychain_test
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
+	"github.com/dominant-strategies/ltcd/ltcutil/hdkeychain"
 )
 
 // bip0032MasterPriv1 is the master private extended key from the first set of

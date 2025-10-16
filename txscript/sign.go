@@ -7,13 +7,13 @@ package txscript
 import (
 	"errors"
 
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/btcec/v2/schnorr"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 
-	"github.com/ltcsuite/ltcd/btcec/v2/ecdsa"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/btcec/v2/ecdsa"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // RawTxInWitnessSignature returns the serialized ECDA signature for the input

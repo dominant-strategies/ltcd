@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 var (

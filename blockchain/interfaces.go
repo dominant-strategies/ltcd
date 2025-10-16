@@ -1,8 +1,8 @@
 package blockchain
 
 import (
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 // ChainCtx is an interface that abstracts away blockchain parameters.

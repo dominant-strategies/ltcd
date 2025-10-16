@@ -15,12 +15,12 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
-	"github.com/ltcsuite/secp256k1"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/secp256k1_ltc"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
+	"github.com/dominant-strategies/ltcd/txscript"
+	"github.com/dominant-strategies/ltcd/wire"
 	"lukechampine.com/blake3"
 )
 
@@ -340,7 +340,7 @@ func extractMwebOutput(po *POutput) (*wire.MwebOutput, error) {
 		ExtraData:         extraData,
 	}
 
-	var rangeProof secp256k1.RangeProof
+	var rangeProof secp256k1_ltc.RangeProof
 	copy(rangeProof[:], po.RangeProof[:])
 
 	mwebOutput := &wire.MwebOutput{

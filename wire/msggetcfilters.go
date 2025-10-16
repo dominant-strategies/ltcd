@@ -7,7 +7,7 @@ package wire
 import (
 	"io"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 // MaxGetCFiltersReqRange the maximum number of filters that may be requested in

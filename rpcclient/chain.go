@@ -10,9 +10,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/btcjson"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // FutureGetBestBlockHashResult is a future promise to deliver the result of a

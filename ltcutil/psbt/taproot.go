@@ -3,9 +3,9 @@ package psbt
 import (
 	"bytes"
 
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/txscript"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/btcec/v2/schnorr"
+	"github.com/dominant-strategies/ltcd/txscript"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 const (

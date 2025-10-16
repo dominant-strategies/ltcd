@@ -14,9 +14,9 @@ import (
 	"strings"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/ltcsuite/ltcd/btcjson"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/btcjson"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 )
 
 const (

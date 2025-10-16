@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/ltcutil/base58"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/ltcutil/base58"
+	"github.com/dominant-strategies/ltcd/ltcutil/hdkeychain"
 	"math/big"
 )
 

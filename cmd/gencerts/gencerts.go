@@ -13,7 +13,7 @@ import (
 	"time"
 
 	flags "github.com/jessevdk/go-flags"
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 )
 
 type config struct {

@@ -5,11 +5,11 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
+	"github.com/dominant-strategies/ltcd/wire"
 	"lukechampine.com/blake3"
 )
 

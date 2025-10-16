@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/btcjson"
+	"github.com/dominant-strategies/ltcd/btcjson"
 )
 
 // TestBtcWalletExtCmds tests all of the ltcwallet extended commands marshal and

@@ -13,11 +13,11 @@ import (
 	"testing/quick"
 
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
-	"github.com/ltcsuite/ltcd/btcec/v2"
-	"github.com/ltcsuite/ltcd/btcec/v2/schnorr"
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/ltcutil/hdkeychain"
+	"github.com/dominant-strategies/ltcd/btcec/v2"
+	"github.com/dominant-strategies/ltcd/btcec/v2/schnorr"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil/hdkeychain"
 	"github.com/stretchr/testify/require"
 )
 

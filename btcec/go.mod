@@ -1,4 +1,4 @@
-module github.com/ltcsuite/ltcd/btcec/v2
+module github.com/dominant-strategies/ltcd/btcec/v2
 
 go 1.17
 

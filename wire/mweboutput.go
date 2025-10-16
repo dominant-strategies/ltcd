@@ -5,9 +5,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/ltcutil/mweb/mw"
-	"github.com/ltcsuite/secp256k1"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/secp256k1_ltc"
+	"github.com/dominant-strategies/ltcd/ltcutil/mweb/mw"
 	"lukechampine.com/blake3"
 )
 
@@ -33,7 +33,7 @@ type (
 		SenderPubKey   mw.PublicKey
 		ReceiverPubKey mw.PublicKey
 		Message        MwebOutputMessage
-		RangeProof     *secp256k1.RangeProof
+		RangeProof     *secp256k1_ltc.RangeProof
 		RangeProofHash chainhash.Hash
 		Signature      mw.Signature
 
@@ -163,7 +163,7 @@ func (mo *MwebOutput) read(r io.Reader, pver uint32, compact bool) error {
 		if bytes.Count(mo.RangeProofHash[:], []byte{0}) == 32 {
 			err = readElement(r, &mo.RangeProofHash)
 		} else {
-			mo.RangeProof = &secp256k1.RangeProof{}
+			mo.RangeProof = &secp256k1_ltc.RangeProof{}
 			copy(mo.RangeProof[:], mo.RangeProofHash[:])
 			_, err = io.ReadFull(r, mo.RangeProof[32:])
 			mo.RangeProofHash = blake3.Sum256(mo.RangeProof[:])

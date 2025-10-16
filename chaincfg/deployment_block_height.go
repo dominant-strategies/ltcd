@@ -1,7 +1,7 @@
 package chaincfg
 
 import (
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // BlockHeightDeploymentStarter is a ConsensusDeploymentStarter

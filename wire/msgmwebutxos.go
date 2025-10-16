@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 )
 
 const MaxMwebUtxosPerQuery = 4096

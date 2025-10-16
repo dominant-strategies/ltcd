@@ -25,8 +25,8 @@
 //	        "fmt"
 //	        "log"
 //
-//	        "github.com/ltcsuite/ltcd/ltcutil"
-//	        "github.com/ltcsuite/ltcd/chaincfg"
+//	        "github.com/dominant-strategies/ltcd/ltcutil"
+//	        "github.com/dominant-strategies/ltcd/chaincfg"
 //	)
 //
 //	var testnet = flag.Bool("testnet", false, "operate on the testnet Litecoin network")

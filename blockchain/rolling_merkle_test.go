@@ -3,7 +3,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 	"github.com/stretchr/testify/require"
 )
 

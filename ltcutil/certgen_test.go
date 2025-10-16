@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 	//"github.com/davecgh/go-spew/spew"
 )
 

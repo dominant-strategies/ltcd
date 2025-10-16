@@ -12,11 +12,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ltcsuite/ltcd/chaincfg"
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
-	"github.com/ltcsuite/ltcd/database"
-	"github.com/ltcsuite/ltcd/database/ffldb"
-	"github.com/ltcsuite/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/chaincfg"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/database"
+	"github.com/dominant-strategies/ltcd/database/ffldb"
+	"github.com/dominant-strategies/ltcd/ltcutil"
 )
 
 // dbType is the database type name for this driver.

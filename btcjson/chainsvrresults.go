@@ -9,10 +9,10 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/ltcsuite/ltcd/chaincfg/chainhash"
+	"github.com/dominant-strategies/ltcd/chaincfg/chainhash"
 
-	"github.com/ltcsuite/ltcd/ltcutil"
-	"github.com/ltcsuite/ltcd/wire"
+	"github.com/dominant-strategies/ltcd/ltcutil"
+	"github.com/dominant-strategies/ltcd/wire"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when
